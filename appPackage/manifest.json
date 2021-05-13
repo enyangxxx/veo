@@ -5,28 +5,28 @@
     "id": "2ae1ebea-7256-4a55-9a5b-06422255f932",
     "packageName": "com.microsoft.teams.extension",
     "developer": {
-        "name": "Teams App, Inc.",
+        "name": "VEO GmbH",
         "websiteUrl": "https://localhost:3000",
         "privacyUrl": "https://localhost:3000/privacy",
         "termsOfUseUrl": "https://localhost:3000/termsofuse"
     },
     "icons": {
-        "color": "color.png",
-        "outline": "outline.png"
+        "color": "veo.png",
+        "outline": "veo-mini.png"
     },
     "name": {
         "short": "VEO",
-        "full": ""
+        "full": "Virtual Experience Office"
     },
     "description": {
-        "short": "VEO: The virtual office app.",
-        "full": "VEO, the virtual office app works as MS Teams addon."
+        "short": "VEO: Virtual Experience Office.",
+        "full": "VEO, the Virtual Experience Office works as MS Teams addon."
     },
     "accentColor": "#FFFFFF",
     "staticTabs": [
         {
             "entityId": "index",
-            "name": "Personal Tab",
+            "name": "Iteratec Hamburg",
             "contentUrl": "https://localhost:3000/tab",
             "websiteUrl": "https://localhost:3000/tab",
             "scopes": [
