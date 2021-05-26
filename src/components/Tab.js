@@ -3,7 +3,7 @@
 
 import React from "react";
 import * as microsoftTeams from "@microsoft/teams-js";
-import mockup from "../assets/VEOMockup.jpg";
+import video from "../assets/VEO-Advertisement.mp4";
 
 /**
  * The 'PersonalTab' component renders the main tab content
@@ -26,13 +26,16 @@ class Tab extends React.Component {
         context: context,
       });
     });
+    document.getElementById('video').play();
     // Next steps: Error handling using the error object
   }
 
+  // <img src={mockup} alt="Oh no, something is wrong."></img>
   render() {
     return (
       <div>
-        <img src={mockup} alt="Oh no, something is wrong."></img>
+      <video src={video} type="video/mp4"width="80%" height="80%" id="video" autoPlay muted loop>
+      </video>
       </div>
     );
   }
